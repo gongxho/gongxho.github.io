@@ -1,14 +1,21 @@
 import { hopeTheme } from "vuepress-theme-hope";
 // 导航栏配置
-import { enNavbarConfig, zhNavbarConfig } from "./navbar";
-import { enSidebarConfig, zhSidebarConig } from "./sidebar";
+import {
+  // enNavbarConfig, 
+  zhNavbarConfig
+} from "./navbar";
+// 文章侧边栏配置
+import {
+  // enSidebarConfig,
+  zhSidebarConig
+} from "./sidebar";
 
 export default hopeTheme({
   // 当前网站部署到的域名
   hostname: "https://mrhope.site",
   // 文章显示的默认作者
   author: {
-    name: "Mr.Hope",
+    name: "Mr.Googxh",
     url: "https://mrhope.site",
   },
   // 字体图标资源链接
@@ -31,7 +38,7 @@ export default hopeTheme({
       sidebar: zhSidebarConig,
       // 提供博客功能，且该功能默认禁用，要启用博客插件并使用默认选项，你可以在主题选项中设置 plugins.blog: true
       blog: {
-        description: "VuePress 项目成员，前端开发者，理论物理硕士在读",
+        description: "前端开发者",
         intro: "/about/",
         medias: {
           QQ: "http://wpa.qq.com/msgrd?v=3&uin=1178522294&site=qq&menu=yes",
@@ -46,21 +53,21 @@ export default hopeTheme({
       },
     },
 
-    "/en/": {
-      navbar: enNavbarConfig,
-      sidebar: enSidebarConfig,
+    // "/en/": {
+    //   navbar: enNavbarConfig,
+    //   sidebar: enSidebarConfig,
 
-      blog: {
-        description:
-          "VuePress project member, front-end developer, studying for a master's degree in theoretical physics",
-        intro: "/en/about/",
-        medias: {
-          Gmail: "mailto:mister-hope@outlook.com",
-          Steam: "https://steamcommunity.com/id/Mr-Hope/",
-          GitHub: "https://github.com/Mister-Hope",
-        },
-      },
-    },
+    //   blog: {
+    //     description:
+    //       "VuePress project member, front-end developer, studying for a master's degree in theoretical physics",
+    //     intro: "/en/about/",
+    //     medias: {
+    //       Gmail: "mailto:mister-hope@outlook.com",
+    //       Steam: "https://steamcommunity.com/id/Mr-Hope/",
+    //       GitHub: "https://github.com/Mister-Hope",
+    //     },
+    //   },
+    // },
   },
   // 是否默认显示页脚
   displayFooter: true,

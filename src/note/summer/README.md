@@ -1,5 +1,5 @@
 ---
-title: 夏之歌
+title: 心情随笔
 icon: leaf
 category: 随笔
 tag:

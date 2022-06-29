@@ -1,5 +1,5 @@
 import { navbar } from "vuepress-theme-hope";
-
+// 首页顶部导航栏配置
 export const zhNavbarConfig = navbar([
   "/",
   {
@@ -8,15 +8,22 @@ export const zhNavbarConfig = navbar([
     prefix: "/note/",
     children: [
       { text: "随笔", link: "", icon: "note", activeMatch: "^/note/$" },
-      {
-        text: "诗集: 四季",
-        children: ["spring/", "summer/", "fall/", "winter/"],
-      },
-      {
-        text: "其他作品",
-        children: ["life/", "poem/"],
-      },
-      "node-js/",
+      // {
+      //   text: "心情文章",
+      //   children: ["spring/", "summer/", "fall/", "winter/"],
+      // },
+      // {
+      //   text: "生活日记",
+      //   children: ["life/", "poem/"],
+      // },
+      // {
+      //   text: "人生感悟",
+      //   children: ["node-js/"],
+      // },
+      'summer/',
+      'spring/',
+      'life/',
+      'node-js/',
     ],
   },
   {
@@ -28,6 +35,10 @@ export const zhNavbarConfig = navbar([
         icon: "code",
         link: "/code/",
         activeMatch: "^/code/$",
+      },
+      {
+        text: "前端",
+        children: ["/design/"],
       },
       {
         text: "产品设计",
@@ -57,9 +68,9 @@ export const zhNavbarConfig = navbar([
   },
 ]);
 
-export const enNavbarConfig = navbar([
-  "/en/",
-  "/en/note/",
-  "/en/code/",
-  "/en/software/",
-]);
+// export const enNavbarConfig = navbar([
+//   "/en/",
+//   "/en/note/",
+//   "/en/code/",
+//   "/en/software/",
+// ]);

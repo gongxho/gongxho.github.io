@@ -1,9 +1,9 @@
 ---
-title: 春之诗
+title: 心情文章
 icon: flower
 category: 随笔
 tag:
-  - 春之诗
+  - 文章
 ---
 
 ::: tip 介绍

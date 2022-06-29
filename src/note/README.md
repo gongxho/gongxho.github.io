@@ -1,12 +1,12 @@
 ---
-title: Mr.Hope 的随笔
+title: Mr.Googxh 的随笔
 icon: note
 category: 随笔
 star: 9
 sticky: 9
 ---
 
-这里是 Mr.Hope 的一些随笔，后续被整理进博客中。
+这里是 Mr.Googxh 的一些随笔。
 
 ## 四季
 
@@ -19,8 +19,6 @@ sticky: 9
 近日将其作为少年回忆，整理在博客中。
 
 :::
-
-- [秋之思](fall/catalog.md)
 
 - [冬之语](winter/note.md)
 

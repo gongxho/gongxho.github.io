@@ -6,7 +6,7 @@ title: 主页
 heroImage: /logo.svg
 heroText: 𝓜𝓻. 𝓗𝓸𝓹𝓮
 heroFullScreen: true
-tagline: Where there is light, there is hope
+tagline: 外界的声音都是参考，你不开心，就不要参考！
 projects:
   - name: vuepress
     desc: 基于 Vue 的静态文档构建器

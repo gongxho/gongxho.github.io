@@ -31,11 +31,7 @@ export const zhSidebarConig = sidebar({
 
   "/software/": software,
 
-  "/physics/": physics,
-
-  "/note/innenu/": ["", "yaml", "tag-list", "get-started"],
-
-  "/note/": note,
+  "/note/": 'structure',
 
   "/linux/": linux,
 
@@ -90,13 +86,13 @@ export const zhSidebarConig = sidebar({
   "/": ["", "note/", "code/", "software/", "about/"],
 });
 
-export const enSidebarConfig = sidebar({
-  "/en/note/": [""],
+// export const enSidebarConfig = sidebar({
+//   "/en/note/": [""],
 
-  "/en/code/": [""],
+//   "/en/code/": [""],
 
-  "/en/about/": ["", "site"],
+//   "/en/about/": ["", "site"],
 
-  // fallback
-  "/en/": ["", "code/", "about/"],
-});
+//   // fallback
+//   "/en/": ["", "code/", "about/"],
+// });

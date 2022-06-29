@@ -1,8 +1,8 @@
 ---
 icon: nodeJS
-title: NodeJS
+title: 人生感悟
 tag:
-  - Node.js
+  - 人生
 ---
 
 ## 目录

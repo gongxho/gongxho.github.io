@@ -22,14 +22,14 @@ export default defineUserConfig({
   locales: {
     "/": {
       lang: "zh-CN",
-      title: "Mr.Hope",
-      description: "Where there is light, there is hope.",
+      title: "Mr.Googxh",
+      description: "Mr.Googxh personal blog.",
     },
 
-    "/en/": {
-      title: "My name is Mr.Hope",
-      description: "Mr.Hope personal blog",
-    },
+    // "/en/": {
+    //   title: "My name is Mr.Googxh",
+    //   description: "Mr.Googxh personal blog",
+    // },
   },
   // 设置站点要使用的主题
   theme,

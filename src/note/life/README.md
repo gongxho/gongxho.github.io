@@ -1,9 +1,9 @@
 ---
-title: 笑谈人生
+title: 生活日记
 icon: form
 category: 随笔
 tag:
-  - 笑谈人生
+  - 日记
 ---
 
 ::: tip 介绍
