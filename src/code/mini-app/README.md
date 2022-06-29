@@ -126,7 +126,7 @@ QQ 小程序本质还是换汤不换药的，且 QQ 开发者工具兼容 `wxml`
 
 - [GitHub repository](https://github.com/Hope-Studio/wxminiappdemo)
 
-## Mr.Hope 框架说明
+## Mr.Googxh 框架说明
 
 - [小程序框架使用说明](framework/README.md)
 

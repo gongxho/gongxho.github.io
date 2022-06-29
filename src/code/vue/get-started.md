@@ -39,7 +39,7 @@ tag:
 
 ::: warning
 
-请注意 Mr.Hope **不推荐** 新手直接使用 `vue-cli`，尤其是在您还不熟悉基于 Node.js 的构建工具时。
+请注意 Mr.Googxh **不推荐** 新手直接使用 `vue-cli`，尤其是在您还不熟悉基于 Node.js 的构建工具时。
 
 :::
 

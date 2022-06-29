@@ -146,7 +146,7 @@ Grid 布局的属性分成两类。一类定义在容器上面，称为容器属
 ::: normal-demo 网格布局
 
 ```html
-<span style="font-size: 22px">Mr.Hope</span>
+<span style="font-size: 22px">Mr.Googxh</span>
 <div class="grid-demo">
   <div class="item1">1</div>
   <div class="item2">2</div>
@@ -218,7 +218,7 @@ Grid 布局的属性分成两类。一类定义在容器上面，称为容器属
 ::: normal-demo 行内网格布局
 
 ```html
-<span style="font-size: 22px">Mr.Hope</span>
+<span style="font-size: 22px">Mr.Googxh</span>
 <div class="grid-demo">
   <div class="item1">1</div>
   <div class="item2">2</div>

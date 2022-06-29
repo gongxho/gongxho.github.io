@@ -6,7 +6,7 @@ tag:
   - 文档
 ---
 
-Mr.Hope 已为 inNENU Website 开发了一些常规组件。本文介绍了这些组件的配置。
+Mr.Googxh 已为 inNENU Website 开发了一些常规组件。本文介绍了这些组件的配置。
 
 <!-- more -->
 
@@ -98,7 +98,7 @@ Mr.Hope 已为 inNENU Website 开发了一些常规组件。本文介绍了这�
 | 属性   | 必填 |  类型  | 内容             | 补充说明                              |
 | ------ | :--: | :----: | ---------------- | ------------------------------------- |
 | desc   |  否  | String | 页脚额外描述文字 |
-| author |  否  | String | 作者             | 默认为 `Mr.Hope`，如需取消请传入 `''` |
+| author |  否  | String | 作者             | 默认为 `Mr.Googxh`，如需取消请传入 `''` |
 | time   |  否  | String | 最后编辑时间     |
 
 ### BaseCarousel

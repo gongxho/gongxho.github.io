@@ -31,7 +31,7 @@ content:
         path: mail
 
   - tag: footer
-    author: Mr.Hope
+    author: Mr.Googxh
     time: 2020年7月17日
 
 shareable: true
@@ -43,7 +43,7 @@ shareable: true
 
 ```yaml
 title: 校园卡介绍
-author: Mr.Hope
+author: Mr.Googxh
 date: 2020年7月18日
 shareable: true
 content:

@@ -22,8 +22,8 @@ export default defineUserConfig({
   locales: {
     "/": {
       lang: "zh-CN",
-      title: "Mr.Googxh",
-      description: "Mr.Googxh personal blog.",
+      title: "𝑀𝑟.𝐺𝑜𝑜𝑔𝑥ℎ",
+      description: "𝑀𝑟.𝐺𝑜𝑜𝑔𝑥ℎ personal blog.",
     },
 
     // "/en/": {

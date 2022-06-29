@@ -188,7 +188,7 @@ p::first-letter {
   </div>
 
   <footer>
-    <p>©2020 Mr.Hope A very handsooooooooooooooooome man.</p>
+    <p>©2020 Mr.Googxh A very handsooooooooooooooooome man.</p>
   </footer>
 </div>
 ```
@@ -276,7 +276,7 @@ clear 可以取三个值:
   </div>
 
   <footer>
-    <p>©2020 Mr.Hope A very handsooooooooooooooooome man.</p>
+    <p>©2020 Mr.Googxh A very handsooooooooooooooooome man.</p>
   </footer>
 </div>
 ```
@@ -430,7 +430,7 @@ footer {
   <div class="clearfix"></div>
 
   <footer>
-    <p>©2020 Mr.Hope A very handsooooooooooooooooome man.</p>
+    <p>©2020 Mr.Googxh A very handsooooooooooooooooome man.</p>
   </footer>
 </div>
 ```

@@ -12,11 +12,11 @@ import {
 
 export default hopeTheme({
   // 当前网站部署到的域名
-  hostname: "https://mrhope.site",
+  hostname: "https://0808200.xyz",
   // 文章显示的默认作者
   author: {
-    name: "Mr.Googxh",
-    url: "https://mrhope.site",
+    name: "𝐺𝑜𝑜𝑔𝑥ℎ",
+    url: "https://0808200.xyz",
   },
   // 字体图标资源链接
   iconAssets: "//at.alicdn.com/t/font_2410206_vuzkjonf4s9.css",
@@ -71,7 +71,7 @@ export default hopeTheme({
   },
   // 是否默认显示页脚
   displayFooter: true,
-  copyright: "Copyright © 2019-present Mr.Hope",
+  copyright: "Copyright © 2019-present Mr.Googxh",
   // 插件配置
   plugins: {
     blog: true,
@@ -115,9 +115,9 @@ export default hopeTheme({
         color: "#ffffff",
       },
       manifest: {
-        name: "Mr.Hope 的个人博客",
-        short_name: "Mr.Hope Blog",
-        description: "Mr.Hope 的个人博客",
+        name: "Mr.Googxh 的个人博客",
+        short_name: "Mr.Googxh Blog",
+        description: "Mr.Googxh 的个人博客",
         theme_color: "#5c92d1",
         icons: [
           {

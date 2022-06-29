@@ -6,7 +6,7 @@ category: Git
 tag:
   - Git
   - 软件
-copyright: Copyright by 廖雪峰 Edited by Mr.Hope
+copyright: Copyright by 廖雪峰 Edited by Mr.Googxh
 ---
 
 修改 readme.txt 文件如下:

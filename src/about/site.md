@@ -10,7 +10,7 @@ breadcrumb: false
 
 ## 仓库链接
 
-- [**Mr.Hope 的个人博客**](https://github.com/Mister-Hope/blog)
+- [**Mr.Googxh 的个人博客**](https://github.com/Mister-Hope/blog)
 
 ## 免责声明
 

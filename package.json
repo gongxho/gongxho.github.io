@@ -1,5 +1,5 @@
 {
-  "name": "blog",
+  "name": "myblog",
   "version": "1.0.0",
   "description": "个人博客",
   "scripts": {
@@ -18,7 +18,7 @@
     "lint-md": "markdownlint **/*.md --ignore node_modules --fix",
     "test": "echo \"Warning: no test specified\" && exit 0"
   },
-  "author": "Mr.Hope",
+  "author": "Mr.Googxh",
   "license": "MIT",
   "keywords": [
     "vuepress",

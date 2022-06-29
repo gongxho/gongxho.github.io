@@ -109,7 +109,7 @@ npm config set registry https://registry.npmmirror.com/
 
 Node.js 自带的包管理工具 npm 并不是那么的强大，其安装速度也很慢，所以社区开发了一些其他的包管理工具如 `yarn` 和 `pnpm`，它们有自己的优势。
 
-Mr.Hope 推荐使用 pnpm 进行包管理，因为它使用硬链接索引包文件，安装速度更快而且节省磁盘空间。
+Mr.Googxh 推荐使用 pnpm 进行包管理，因为它使用硬链接索引包文件，安装速度更快而且节省磁盘空间。
 
 从 v16 开始，Node.js 引入了 Corepack 工具，并在 package.json 支持了 `packageManager` 选项以支持第三方管理工具。
 

@@ -114,7 +114,7 @@ tag:
    如:
 
    ```bash
-   git config --global user.name "Mr.Hope"
+   git config --global user.name "Mr.Googxh"
    git config --global user.email "mister-hope@outlook.com"
    ```
 

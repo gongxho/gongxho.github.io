@@ -25,7 +25,7 @@ tag:
 
 如果您的电脑上已经安装了**Sublime Text**，或者**Notepad++**，也可以用来编写 JavaScript 代码，注意用 UTF-8 格式保存。
 
-最方便的，当然是 Mr.Hope 强力安利的 VS Code 了。
+最方便的，当然是 Mr.Googxh 强力安利的 VS Code 了。
 
 输入以下代码:
 

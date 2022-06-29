@@ -1,12 +1,12 @@
 ---
 title: Git 介绍
 icon: creative
-author: Mr.Hope & 廖雪峰
+author: Mr.Googxh & 廖雪峰
 category: Git
 tag:
   - Git
   - 软件
-copyright: Copyright by 廖雪峰 Edited by Mr.Hope
+copyright: Copyright by 廖雪峰 Edited by Mr.Googxh
 ---
 
 Git 是什么?

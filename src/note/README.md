@@ -6,9 +6,9 @@ star: 9
 sticky: 9
 ---
 
-这里是 Mr.Googxh 的一些随笔。
+这里是一些随笔。
 
-## 四季
+## 心情随笔
 
 ::: tip 介绍
 
@@ -20,19 +20,7 @@ sticky: 9
 
 :::
 
-- [冬之语](winter/note.md)
-
-- [春之诗](spring/1.md)
-
-- [夏之歌](summer/1.md)
-
-::: tip 其他方式
-
-也可查看 [空间相册](https://user.qzone.qq.com/1178522294)
-
-:::
-
-## 笑谈人生
+## 心情文章
 
 ::: tip 介绍
 
@@ -42,9 +30,7 @@ sticky: 9
 
 :::
 
-- [点击前往](life/README.md)
-
-## 轻言细语
+## 生活日记
 
 ::: tip 介绍
 
@@ -54,8 +40,13 @@ sticky: 9
 
 :::
 
-- [点击前往](poem/README.md)
+## 人生感悟
 
-## Node.js 相关
+::: tip 介绍
 
-- [current-path 相关](node-js/current-path.md)
+这是我在高一写的一些小的散文诗，最初发表在空间日志上。
+
+近日将其作为少年回忆，整理在博客中。
+
+:::
+<!-- - [current-path 相关](inOnLife/current-path.md) -->

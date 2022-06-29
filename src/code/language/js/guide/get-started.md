@@ -122,7 +122,7 @@ JavaScript 代码可以直接嵌在网页的任何地方。
 
 ### 架设本地服务器
 
-运行 JavaScript 也可以在本地架设一个 Web 服务器，然后以 `http://` 或 `https://` 开头的地址来正常执行所有 JavaScript 代码。如有需要请下载 Mr.Hope 制作的 WAMP / WNMP 一键安装工具。
+运行 JavaScript 也可以在本地架设一个 Web 服务器，然后以 `http://` 或 `https://` 开头的地址来正常执行所有 JavaScript 代码。如有需要请下载 Mr.Googxh 制作的 WAMP / WNMP 一键安装工具。
 
 ### 使用 Node.js
 

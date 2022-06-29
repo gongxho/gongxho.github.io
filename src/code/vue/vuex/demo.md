@@ -7,7 +7,7 @@ tag:
   - Demo
 ---
 
-本案例展示了 Mr.Hope 个人编写的 screen 相关的 Vuex 模块。
+本案例展示了 Mr.Googxh 个人编写的 screen 相关的 Vuex 模块。
 
 <!-- more -->
 

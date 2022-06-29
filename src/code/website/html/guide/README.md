@@ -30,7 +30,7 @@ HTML 不是一门编程语言，而是一种用于定义内容结构的**标记�
 对于一段文字
 
 ```text
-Mr.Hope is handsome.
+Mr.Googxh is handsome.
 ```
 
 HTML 可以将这行文字封装成一个段落(**p**aragraph)元素来使其在单独一行呈现:
@@ -38,7 +38,7 @@ HTML 可以将这行文字封装成一个段落(**p**aragraph)元素来使其在
 ::: normal-demo HTML 段落
 
 ```html
-<p>Mr.Hope is handsome.</p>
+<p>Mr.Googxh is handsome.</p>
 ```
 
 :::
@@ -74,7 +74,7 @@ An element is:
 ::: normal-demo 案例
 
 ```html
-<p>Mr.Hope is handsome.</p>
+<p>Mr.Googxh is handsome.</p>
 ```
 
 :::
@@ -97,7 +97,7 @@ An element is:
 
 `<tagname ...>` 是开始标签，`</tagname>` 是结束标签。
 
-案例中起始标签为 `<p>` 内容为 `Mr.Hope is handsome.` 闭合标签为 `</p>`。
+案例中起始标签为 `<p>` 内容为 `Mr.Googxh is handsome.` 闭合标签为 `</p>`。
 
 开始标签常被称为 **起始标签(Opening tag)**，结束标签常称为 **闭合标签(Closing tag)**
 
@@ -139,12 +139,12 @@ An element is:
 
 ### 标签的嵌套
 
-除了并列放置标签以外，标签的内容也可以放置其他标签，这就构成了标签的嵌套。比如您想强调 Mr.Hope 的帅:
+除了并列放置标签以外，标签的内容也可以放置其他标签，这就构成了标签的嵌套。比如您想强调 Mr.Googxh 的帅:
 
 ::: normal-demo 标签的嵌套
 
 ```html
-<p>Mr.Hope is <strong>very</strong> handsome.</p>
+<p>Mr.Googxh is <strong>very</strong> handsome.</p>
 ```
 
 :::

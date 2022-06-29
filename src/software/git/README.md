@@ -5,7 +5,7 @@ category: Git
 tag:
   - Git
   - 软件
-copyright: Copyright by 廖雪峰 Edited by Mr.Hope
+copyright: Copyright by 廖雪峰 Edited by Mr.Googxh
 ---
 
 Git 是一个开源的分布式版本控制系统，用于敏捷高效地处理任何或小或大的项目。在开发中分布式文件管理系统，可以便于多人协作开发。
@@ -14,7 +14,7 @@ Git 是一个开源的分布式版本控制系统，用于敏捷高效地处理�
 
 如果您觉得本文太枯燥，这里有一个 [交互式的分支演示与学习网站](http://learngitbranching.js.org/)。您可以在这里领略 Git 的魅力。
 
-但 Mr.Hope 仍建议您操作完再系统的学习并阅读以下内容。
+但 Mr.Googxh 仍建议您操作完再系统的学习并阅读以下内容。
 
 :::
 

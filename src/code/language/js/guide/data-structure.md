@@ -90,7 +90,7 @@ JavaScript 的对象 (Object) 是一组由 **`键-值`** 组成的**无序**集�
 
 ```js
 let person = {
-  name: "Mr.Hope",
+  name: "Mr.Googxh",
   isHandsome: true,
   birth: 1998,
   school: "No.1 Middle School",
@@ -105,7 +105,7 @@ JavaScript 对象的键都是字符串类型，值可以是任意数据类型。
 要获取一个对象的属性，我们用 `Object.Key` 的方式:
 
 ```js
-person.name; // 'Mr.Hope'
+person.name; // 'Mr.Googxh'
 person.zipcode; // null
 ```
 
