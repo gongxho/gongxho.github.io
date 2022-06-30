@@ -59,7 +59,4 @@ jobs:
           git config --global user.name 'Mr.Googxh'
           git config --global user.email 'mister-hope@outlook.com'
 
-      - name: Deploy
-        run: |
-          git push -f git@mrhope.site:/www/wwwroot/mrhope gh-pages
-          ssh git@mrhope.site "cd /www/wwwroot/mrhope && git reset --hard HEAD"
+
