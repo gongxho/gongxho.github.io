@@ -25,11 +25,6 @@ export default defineUserConfig({
       title: "𝑀𝑟.𝐺𝑜𝑜𝑔𝑥ℎ",
       description: "𝑀𝑟.𝐺𝑜𝑜𝑔𝑥ℎ personal blog.",
     },
-
-    // "/en/": {
-    //   title: "My name is Mr.Googxh",
-    //   description: "Mr.Googxh personal blog",
-    // },
   },
   // 设置站点要使用的主题
   theme,

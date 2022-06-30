@@ -3,7 +3,7 @@ home: true
 layout: Blog
 icon: home
 title: 主页
-heroImage: /logo.svg
+heroImage: /logo.png
 heroText: 𝓜𝓻.𝓖𝓸𝓸𝓰𝔁𝓱
 heroFullScreen: true
 tagline: 外界的声音都是参考，你不开心，就不要参考！

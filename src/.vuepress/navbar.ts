@@ -8,18 +8,6 @@ export const zhNavbarConfig = navbar([
     prefix: "/note/",
     children: [
       { text: "随笔", link: "", icon: "note", activeMatch: "^/note/$" },
-      // {
-      //   text: "心情文章",
-      //   children: ["spring/", "summer/", "fall/", "winter/"],
-      // },
-      // {
-      //   text: "生活日记",
-      //   children: ["life/", "poem/"],
-      // },
-      // {
-      //   text: "人生感悟",
-      //   children: ["node-js/"],
-      // },
       'moodEssay/',
       'moodArticle/',
       'lifeDiary/',
@@ -67,10 +55,3 @@ export const zhNavbarConfig = navbar([
     ],
   },
 ]);
-
-// export const enNavbarConfig = navbar([
-//   "/en/",
-//   "/en/note/",
-//   "/en/code/",
-//   "/en/software/",
-// ]);

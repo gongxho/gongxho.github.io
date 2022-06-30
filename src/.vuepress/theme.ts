@@ -1,14 +1,8 @@
 import { hopeTheme } from "vuepress-theme-hope";
 // 导航栏配置
-import {
-  // enNavbarConfig, 
-  zhNavbarConfig
-} from "./navbar";
+import { zhNavbarConfig } from "./navbar";
 // 文章侧边栏配置
-import {
-  // enSidebarConfig,
-  zhSidebarConig
-} from "./sidebar";
+import { zhSidebarConig } from "./sidebar";
 
 export default hopeTheme({
   // 当前网站部署到的域名
@@ -22,7 +16,7 @@ export default hopeTheme({
   iconAssets: "//at.alicdn.com/t/font_2410206_vuzkjonf4s9.css",
   iconPrefix: "iconfont icon-",
   // 导航栏图标，应为基于 .vuepress/public 文件夹的绝对路径
-  logo: "/logo.svg",
+  logo: "/logo.png",
   // 仓库配置，用于在导航栏中显示仓库链接
   repo: "https://github.com/Mister-Hope/Mister-Hope.github.io",
   // 是否在导航栏显示仓库链接
@@ -52,22 +46,6 @@ export default hopeTheme({
         },
       },
     },
-
-    // "/en/": {
-    //   navbar: enNavbarConfig,
-    //   sidebar: enSidebarConfig,
-
-    //   blog: {
-    //     description:
-    //       "VuePress project member, front-end developer, studying for a master's degree in theoretical physics",
-    //     intro: "/en/about/",
-    //     medias: {
-    //       Gmail: "mailto:mister-hope@outlook.com",
-    //       Steam: "https://steamcommunity.com/id/Mr-Hope/",
-    //       GitHub: "https://github.com/Mister-Hope",
-    //     },
-    //   },
-    // },
   },
   // 是否默认显示页脚
   displayFooter: true,

@@ -14,7 +14,6 @@ import {
 import { linux } from "./linux";
 import { miniapp } from "./mini-app";
 import { note } from "./note";
-import { physics } from "./physics";
 import { comsol, git, software, vscode } from "./software";
 import { vue } from "./vue";
 import { css, html, jquery, website } from "./website";
@@ -86,13 +85,3 @@ export const zhSidebarConig = sidebar({
   "/": ["", "note/", "code/", "software/", "about/"],
 });
 
-// export const enSidebarConfig = sidebar({
-//   "/en/note/": [""],
-
-//   "/en/code/": [""],
-
-//   "/en/about/": ["", "site"],
-
-//   // fallback
-//   "/en/": ["", "code/", "about/"],
-// });
