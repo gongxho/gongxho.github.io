@@ -18,7 +18,7 @@ export default hopeTheme({
   // 导航栏图标，应为基于 .vuepress/public 文件夹的绝对路径
   logo: "/logo.png",
   // 仓库配置，用于在导航栏中显示仓库链接
-  repo: "https://github.com/Mister-Hope/Mister-Hope.github.io",
+  repo: "https://github.com/gongxho/gongxho.github.io",
   // 是否在导航栏显示仓库链接
   repoDisplay: false,
   // 文档在仓库中的目录
