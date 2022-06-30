@@ -3,7 +3,7 @@
   <id>https://0808200.xyz/</id>
   <title>𝑀𝑟.𝐺𝑜𝑜𝑔𝑥ℎ</title>
   <subtitle>𝑀𝑟.𝐺𝑜𝑜𝑔𝑥ℎ personal blog.</subtitle>
-  <updated>2022-06-30T06:53:19.605Z</updated>
+  <updated>2022-06-30T09:47:41.124Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://0808200.xyz/atom.xml"/>
   <link rel="alternate" href="https://0808200.xyz/"/>
@@ -36,11 +36,11 @@
     <title type="html">人生感悟</title>
     <id>https://0808200.xyz/note/inOnLife/</id>
     <link href="https://0808200.xyz/note/inOnLife/"/>
-    <updated>2022-06-29T10:08:18.000Z</updated>
-    <content type="html"><![CDATA[<h2 id="目录" tabindex="-1"> 目录</h2>
-<ul>
-<li><a href="/note/inOnLife/current-path.html">current-path 相关</a></li>
-</ul>
+    <updated>2022-06-30T09:39:57.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="心情随笔" tabindex="-1"> 心情随笔</h2>
+<div><p>介绍</p>
+<p>醉生梦死</p>
+</div>
 ]]></content>
     <published>2022-06-29T10:08:18.000Z</published>
   </entry>
@@ -246,14 +246,10 @@
     <title type="html">生活日记</title>
     <id>https://0808200.xyz/note/lifeDiary/</id>
     <link href="https://0808200.xyz/note/lifeDiary/"/>
-    <updated>2022-06-29T10:08:18.000Z</updated>
+    <updated>2022-06-30T09:39:57.000Z</updated>
     <content type="html"><![CDATA[<div><p>介绍</p>
-<p>这是我在高一写的人生感悟，最初发表在空间日志上。</p>
-<p>近日将其作为少年回忆，整理在博客中。</p>
+<p>油盐酱醋</p>
 </div>
-<ul>
-<li><a href="https://h5.qzone.qq.com/ugc/share/?sharetag=126FDE98906EB067815B0EEA0F72BEC0&amp;subtype=3&amp;ciphertext=&amp;sid=&amp;blog_photo=&amp;g=&amp;res_uin=1178522294&amp;cellid=V10JYlHT49u8Sd&amp;subid=&amp;bp1=&amp;bp2=&amp;bp7=&amp;appid=4&amp;g_f=2000000103" target="_blank" rel="noopener noreferrer"><strong>空间相册链接</strong></a></li>
-</ul>
 ]]></content>
     <category term="随笔" scheme=""/>
     <published>2022-06-29T10:08:18.000Z</published>
@@ -566,15 +562,13 @@
     <title type="html">心情文章</title>
     <id>https://0808200.xyz/note/moodArticle/</id>
     <link href="https://0808200.xyz/note/moodArticle/"/>
-    <updated>2022-06-29T10:08:18.000Z</updated>
+    <updated>2022-06-30T09:39:57.000Z</updated>
     <summary type="html"><![CDATA[<div><p>介绍</p>
-<p>这是我在高一写的第三篇散文诗集，最初发表在空间日志上。</p>
-<p>近日将其作为少年回忆，整理在博客中。</p>
+<p>风花雪月</p>
 </div>
 ]]></summary>
     <content type="html"><![CDATA[<div><p>介绍</p>
-<p>这是我在高一写的第三篇散文诗集，最初发表在空间日志上。</p>
-<p>近日将其作为少年回忆，整理在博客中。</p>
+<p>风花雪月</p>
 </div>
 
 ]]></content>
@@ -585,15 +579,13 @@
     <title type="html">心情随笔</title>
     <id>https://0808200.xyz/note/moodEssay/</id>
     <link href="https://0808200.xyz/note/moodEssay/"/>
-    <updated>2022-06-29T10:08:18.000Z</updated>
+    <updated>2022-06-30T09:39:57.000Z</updated>
     <summary type="html"><![CDATA[<div><p>介绍</p>
-<p>这是我在高一写的第四篇散文诗集，最初发表在空间日志上。</p>
-<p>近日将其作为少年回忆，整理在博客中。</p>
+<p>春夏秋冬</p>
 </div>
 ]]></summary>
     <content type="html"><![CDATA[<div><p>介绍</p>
-<p>这是我在高一写的第四篇散文诗集，最初发表在空间日志上。</p>
-<p>近日将其作为少年回忆，整理在博客中。</p>
+<p>春夏秋冬</p>
 </div>
 
 ]]></content>
@@ -1148,30 +1140,24 @@
     <title type="html">Mr.Googxh 的随笔</title>
     <id>https://0808200.xyz/note/</id>
     <link href="https://0808200.xyz/note/"/>
-    <updated>2022-06-29T10:08:18.000Z</updated>
+    <updated>2022-06-30T09:39:57.000Z</updated>
     <content type="html"><![CDATA[<p>这里是一些随笔。</p>
 <h2 id="心情随笔" tabindex="-1"> 心情随笔</h2>
 <div><p>介绍</p>
-<p>这是我在高一写的散文诗集，最初发表在空间日志上。</p>
-<p>后续也写了一些诗补充了进去，其中以 “秋之思” 篇幅最多</p>
-<p>近日将其作为少年回忆，整理在博客中。</p>
+<p>随笔</p>
 </div>
 <h2 id="心情文章" tabindex="-1"> 心情文章</h2>
 <div><p>介绍</p>
-<p>这是我在高一写的人生感悟，最初发表在空间日志上。</p>
-<p>近日将其作为少年回忆，整理在博客中。</p>
+<p>文章</p>
 </div>
 <h2 id="生活日记" tabindex="-1"> 生活日记</h2>
 <div><p>介绍</p>
-<p>这是我在高一写的一些小的散文诗，最初发表在空间日志上。</p>
-<p>近日将其作为少年回忆，整理在博客中。</p>
+<p>日记</p>
 </div>
 <h2 id="人生感悟" tabindex="-1"> 人生感悟</h2>
 <div><p>介绍</p>
-<p>这是我在高一写的一些小的散文诗，最初发表在空间日志上。</p>
-<p>近日将其作为少年回忆，整理在博客中。</p>
+<p>感悟</p>
 </div>
-
 ]]></content>
     <category term="随笔" scheme=""/>
     <published>2022-06-27T09:33:50.000Z</published>

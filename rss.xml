@@ -6,8 +6,8 @@
     <link>https://0808200.xyz/</link>
     <description>𝑀𝑟.𝐺𝑜𝑜𝑔𝑥ℎ personal blog.</description>
     <language>zh-CN</language>
-    <pubDate>Thu, 30 Jun 2022 06:53:19 GMT</pubDate>
-    <lastBuildDate>Thu, 30 Jun 2022 06:53:19 GMT</lastBuildDate>
+    <pubDate>Thu, 30 Jun 2022 09:47:41 GMT</pubDate>
+    <lastBuildDate>Thu, 30 Jun 2022 09:47:41 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>随笔</category>
@@ -32,10 +32,10 @@
       <guid>https://0808200.xyz/note/inOnLife/</guid>
       <source url="https://0808200.xyz/rss.xml">人生感悟</source>
       <pubDate>Wed, 29 Jun 2022 10:08:18 GMT</pubDate>
-      <content:encoded><![CDATA[<h2 id="目录" tabindex="-1"> 目录</h2>
-<ul>
-<li><a href="/note/inOnLife/current-path.html">current-path 相关</a></li>
-</ul>
+      <content:encoded><![CDATA[<h2 id="心情随笔" tabindex="-1"> 心情随笔</h2>
+<div><p>介绍</p>
+<p>醉生梦死</p>
+</div>
 ]]></content:encoded>
     </item>
     <item>
@@ -244,12 +244,8 @@
       <category>随笔</category>
       <pubDate>Wed, 29 Jun 2022 10:08:18 GMT</pubDate>
       <content:encoded><![CDATA[<div><p>介绍</p>
-<p>这是我在高一写的人生感悟，最初发表在空间日志上。</p>
-<p>近日将其作为少年回忆，整理在博客中。</p>
+<p>油盐酱醋</p>
 </div>
-<ul>
-<li><a href="https://h5.qzone.qq.com/ugc/share/?sharetag=126FDE98906EB067815B0EEA0F72BEC0&amp;subtype=3&amp;ciphertext=&amp;sid=&amp;blog_photo=&amp;g=&amp;res_uin=1178522294&amp;cellid=V10JYlHT49u8Sd&amp;subid=&amp;bp1=&amp;bp2=&amp;bp7=&amp;appid=4&amp;g_f=2000000103" target="_blank" rel="noopener noreferrer"><strong>空间相册链接</strong></a></li>
-</ul>
 ]]></content:encoded>
     </item>
     <item>
@@ -562,15 +558,13 @@
       <guid>https://0808200.xyz/note/moodArticle/</guid>
       <source url="https://0808200.xyz/rss.xml">心情文章</source>
       <description>介绍
-这是我在高一写的第三篇散文诗集，最初发表在空间日志上。
-近日将其作为少年回忆，整理在博客中。
+风花雪月
 
 </description>
       <category>随笔</category>
       <pubDate>Wed, 29 Jun 2022 10:08:18 GMT</pubDate>
       <content:encoded><![CDATA[<div><p>介绍</p>
-<p>这是我在高一写的第三篇散文诗集，最初发表在空间日志上。</p>
-<p>近日将其作为少年回忆，整理在博客中。</p>
+<p>风花雪月</p>
 </div>
 
 ]]></content:encoded>
@@ -581,15 +575,13 @@
       <guid>https://0808200.xyz/note/moodEssay/</guid>
       <source url="https://0808200.xyz/rss.xml">心情随笔</source>
       <description>介绍
-这是我在高一写的第四篇散文诗集，最初发表在空间日志上。
-近日将其作为少年回忆，整理在博客中。
+春夏秋冬
 
 </description>
       <category>随笔</category>
       <pubDate>Wed, 29 Jun 2022 10:08:18 GMT</pubDate>
       <content:encoded><![CDATA[<div><p>介绍</p>
-<p>这是我在高一写的第四篇散文诗集，最初发表在空间日志上。</p>
-<p>近日将其作为少年回忆，整理在博客中。</p>
+<p>春夏秋冬</p>
 </div>
 
 ]]></content:encoded>
@@ -1149,26 +1141,20 @@
       <content:encoded><![CDATA[<p>这里是一些随笔。</p>
 <h2 id="心情随笔" tabindex="-1"> 心情随笔</h2>
 <div><p>介绍</p>
-<p>这是我在高一写的散文诗集，最初发表在空间日志上。</p>
-<p>后续也写了一些诗补充了进去，其中以 “秋之思” 篇幅最多</p>
-<p>近日将其作为少年回忆，整理在博客中。</p>
+<p>随笔</p>
 </div>
 <h2 id="心情文章" tabindex="-1"> 心情文章</h2>
 <div><p>介绍</p>
-<p>这是我在高一写的人生感悟，最初发表在空间日志上。</p>
-<p>近日将其作为少年回忆，整理在博客中。</p>
+<p>文章</p>
 </div>
 <h2 id="生活日记" tabindex="-1"> 生活日记</h2>
 <div><p>介绍</p>
-<p>这是我在高一写的一些小的散文诗，最初发表在空间日志上。</p>
-<p>近日将其作为少年回忆，整理在博客中。</p>
+<p>日记</p>
 </div>
 <h2 id="人生感悟" tabindex="-1"> 人生感悟</h2>
 <div><p>介绍</p>
-<p>这是我在高一写的一些小的散文诗，最初发表在空间日志上。</p>
-<p>近日将其作为少年回忆，整理在博客中。</p>
+<p>感悟</p>
 </div>
-
 ]]></content:encoded>
     </item>
     <item>
