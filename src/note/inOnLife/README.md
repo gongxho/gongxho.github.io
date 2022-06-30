@@ -5,6 +5,10 @@ tag:
   - 人生
 ---
 
-## 目录
+## 心情随笔
 
-- [current-path 相关](current-path.md)
+::: tip 介绍
+
+醉生梦死
+
+:::
