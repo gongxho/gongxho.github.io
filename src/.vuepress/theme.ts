@@ -32,7 +32,7 @@ export default hopeTheme({
       sidebar: zhSidebarConig,
       // 提供博客功能，且该功能默认禁用，要启用博客插件并使用默认选项，你可以在主题选项中设置 plugins.blog: true
       blog: {
-        description: "前端开发者",
+        description: "前端开发者，游戏爱好者",
         intro: "/about/",
         medias: {
           QQ: "http://wpa.qq.com/msgrd?v=3&uin=2015280728&site=qq&menu=yes",
@@ -54,11 +54,11 @@ export default hopeTheme({
   plugins: {
     blog: true,
     // 主题使用 vuepress-plugin-comment2 提供评论支持
-    comment: {
-      provider: "Waline",
-      login: "disable",
-      serverURL: "https://gxh-gongxho.vercel.app",
-    },
+    // comment: {
+    //   provider: "Waline",
+    //   login: "disable",
+    //   serverURL: "https://gxh-gongxho.vercel.app",
+    // },
     // Feed 插件配置
     feed: {
       atom: true,
