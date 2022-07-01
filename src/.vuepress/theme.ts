@@ -57,7 +57,7 @@ export default hopeTheme({
     comment: {
       provider: "Waline",
       login: "disable",
-      serverURL: "https://2st9f5wo.api.lncldglobal.com",
+      serverURL: "https://gongxho-github-io.vercel.app",
     },
     // Feed 插件配置
     feed: {
