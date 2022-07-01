@@ -2,8 +2,12 @@
 title: Mr.Googxh 的随笔
 icon: note
 category: 随笔
+# 是否收藏在博客主题的文章列表中。当填入数字时，数字越大，排名越靠前
 star: 9
-sticky: 9
+# 是否在列表中置顶
+sticky: 9 
+# 当前页面的短标题，会在导航栏、侧边栏和路径导航中作为首选。
+# shortTitle
 ---
 
 这里是一些随笔。

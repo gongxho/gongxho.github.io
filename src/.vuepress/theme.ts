@@ -35,28 +35,29 @@ export default hopeTheme({
         description: "前端开发者",
         intro: "/about/",
         medias: {
-          QQ: "http://wpa.qq.com/msgrd?v=3&uin=1178522294&site=qq&menu=yes",
-          Qzone: "https://1178522294.qzone.qq.com/",
-          Gmail: "mailto:mister-hope@outlook.com",
-          Zhihu: "https://www.zhihu.com/people/mister-hope",
-          Steam: "https://steamcommunity.com/id/Mr-Hope/",
-          Weibo: "https://weibo.com/misterhope",
-          GitHub: "https://github.com/Mister-Hope",
-          Gitee: "https://gitee.com/Mister-Hope",
+          QQ: "http://wpa.qq.com/msgrd?v=3&uin=2015280728&site=qq&menu=yes",
+          Qzone: "https://2015280728.qzone.qq.com/",
+          Gmail: "gxh2022@gmail.com",
+          GitHub: "https://github.com/googxho",
+          Gitee: "https://gitee.com/googlh",
+          // Zhihu: "https://www.zhihu.com/people/mister-hope",
+          // Weibo: "https://weibo.com/misterhope",
+          // Steam: "https://steamcommunity.com/id/Mr-Hope/",
         },
       },
     },
   },
   // 是否默认显示页脚
   displayFooter: true,
-  copyright: "Copyright © 2019-present Mr.Googxh",
+  copyright: "Copyright © 2022-present Mr.Googxh",
   // 插件配置
   plugins: {
     blog: true,
     // 主题使用 vuepress-plugin-comment2 提供评论支持
     comment: {
       provider: "Waline",
-      serverURL: "https://mister-hope-blog-comment.vercel.app",
+      login: "disable",
+      serverURL: "https://2st9f5wo.api.lncldglobal.com",
     },
     // Feed 插件配置
     feed: {
