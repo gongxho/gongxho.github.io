@@ -17,18 +17,22 @@ import { note } from "./note";
 import { comsol, git, software, vscode } from "./software";
 import { vue } from "./vue";
 import { css, html, jquery, website } from "./website";
+import { vue2 } from "./vue2";
+import { vue3 } from "./vue3";
+import { react } from "./react";
 
 // 通过 路径前缀: 侧边栏配置 的格式为侧边栏配置一个对象
 export const zhSidebarConig = sidebar({
   // 将原来的“侧边栏数组”替换为 "structure" 关键词。这会让主题自动读取本地文件，为你生成对应的侧边栏结构，以大大减少你的配置工作量
-  // "/software/vscode/": vscode,
-  "/software/vscode/": "structure",
-
+  "/software/vscode/": vscode,
+  // "/software/vscode/": "structure",
   "/software/git/": git,
-
   "/software/comsol/": comsol,
-
   "/software/": software,
+
+  "/vue2/": vue2,
+  "/vue3/": vue3,
+  "/react/": react,
 
   "/note/": 'structure',
 

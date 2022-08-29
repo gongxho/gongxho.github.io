@@ -26,7 +26,7 @@ export const zhNavbarConfig = navbar([
       },
       {
         text: "前端",
-        children: ["/design/"],
+        children: ["/vue2/","/react/","/vue3/"],
       },
       {
         text: "产品设计",
