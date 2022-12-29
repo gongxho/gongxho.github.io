@@ -54,4 +54,20 @@ export const zhNavbarConfig = navbar([
       "comsol/",
     ],
   },
+  {
+    text: "前端基石",
+    icon: "bedstone",
+    prefix: "/bedstone/",
+    children: [
+      {
+        text: "前端基石",
+        icon: "software",
+        link: "",
+        activeMatch: "^/bedstone/$",
+      },
+      "computer-memory-detail/",
+      "browser-working-principle/",
+      "beauty-of-design-pattern/",
+    ],
+  },
 ]);

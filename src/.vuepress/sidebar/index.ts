@@ -17,6 +17,7 @@ import { note } from "./note";
 import { comsol, git, software, vscode } from "./software";
 import { vue } from "./vue";
 import { css, html, jquery, website } from "./website";
+import { browser } from "./bedstone";
 import { vue2 } from "./vue2";
 import { vue3 } from "./vue3";
 import { react } from "./react";
@@ -29,6 +30,11 @@ export const zhSidebarConig = sidebar({
   "/software/git/": git,
   "/software/comsol/": comsol,
   "/software/": software,
+
+  "/bedstone":'structure',
+  "/bedstone/computer-memory-detail/":'structure',
+
+  "/bedstone/browser-working-principle/": browser,
 
   "/vue2/": vue2,
   "/vue3/": vue3,
