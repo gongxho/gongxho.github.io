@@ -33,6 +33,7 @@ export const zhSidebarConig = sidebar({
 
   "/bedstone":'structure',
   "/bedstone/computer-memory-detail/":'structure',
+  "/bedstone/google-v8/":'structure',
 
   "/bedstone/browser-working-principle/": browser,
 

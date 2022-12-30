@@ -68,6 +68,7 @@ export const zhNavbarConfig = navbar([
       "computer-memory-detail/",
       "browser-working-principle/",
       "beauty-of-design-pattern/",
+      "google-v8",
     ],
   },
 ]);
