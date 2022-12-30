@@ -69,6 +69,7 @@ export const zhNavbarConfig = navbar([
       "browser-working-principle/",
       "beauty-of-design-pattern/",
       "google-v8",
+      "perspective-http-protocol",
     ],
   },
 ]);

@@ -32,10 +32,11 @@ export const zhSidebarConig = sidebar({
   "/software/": software,
 
   "/bedstone":'structure',
+  "/bedstone/beauty-of-design-pattern/":'structure',
+  "/bedstone/browser-working-principle/": browser,
   "/bedstone/computer-memory-detail/":'structure',
   "/bedstone/google-v8/":'structure',
-
-  "/bedstone/browser-working-principle/": browser,
+  "/bedstone/perspective-http-protocol/":'structure',
 
   "/vue2/": vue2,
   "/vue3/": vue3,
