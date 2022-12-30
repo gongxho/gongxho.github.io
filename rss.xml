@@ -6,14 +6,25 @@
     <link>https://0808200.xyz/</link>
     <description>𝑀𝑟.𝐺𝑜𝑜𝑔𝑥ℎ personal blog.</description>
     <language>zh-CN</language>
-    <pubDate>Fri, 30 Dec 2022 03:45:47 GMT</pubDate>
-    <lastBuildDate>Fri, 30 Dec 2022 03:45:47 GMT</lastBuildDate>
+    <pubDate>Fri, 30 Dec 2022 07:00:41 GMT</pubDate>
+    <lastBuildDate>Fri, 30 Dec 2022 07:00:41 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>google-v8</category>
     <category>设计模式</category>
     <category>浏览器</category>
     <category>内存</category>
+    <item>
+      <title>透视 Http 协议</title>
+      <link>https://0808200.xyz/bedstone/perspective-http-protocol/</link>
+      <guid>https://0808200.xyz/bedstone/perspective-http-protocol/</guid>
+      <source url="https://0808200.xyz/rss.xml">透视 Http 协议</source>
+      <pubDate>Fri, 30 Dec 2022 06:53:41 GMT</pubDate>
+      <content:encoded><![CDATA[<div><p>专栏介绍</p>
+<p>打牢基础，进阶大厂</p>
+</div>
+]]></content:encoded>
+    </item>
     <item>
       <title>Chrome V8 让你更懂JavaScript</title>
       <link>https://0808200.xyz/bedstone/google-v8/</link>
@@ -15122,85 +15133,6 @@ Vue<span>.</span><span>extend</span> <span>=</span> <span>function</span> <span>
 <p>函数最后判断为根节点的时候设置 <code>vm._isMounted</code> 为 <code>true</code>， 表示这个实例已经挂载了，同时执行 <code>mounted</code> 钩子函数。 这里注意 <code>vm.$vnode</code> 表示 Vue 实例的父虚拟 Node，所以它为 <code>Null</code> 则表示当前是根 Vue 的实例。</p>
 <h2 id="总结" tabindex="-1"> 总结</h2>
 <p><code>mountComponent</code> 方法的逻辑也是非常清晰的，它会完成整个渲染工作，接下来我们要重点分析其中的细节，也就是最核心的 2 个方法：<code>vm._render</code> 和 <code>vm._update</code>。</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>new Vue 发生了什么</title>
-      <link>https://0808200.xyz/vue2/data-driven/new-vue.html</link>
-      <guid>https://0808200.xyz/vue2/data-driven/new-vue.html</guid>
-      <source url="https://0808200.xyz/rss.xml">new Vue 发生了什么</source>
-      <pubDate>Mon, 29 Aug 2022 09:14:21 GMT</pubDate>
-      <content:encoded><![CDATA[<h1 id="new-vue-发生了什么" tabindex="-1"> new Vue 发生了什么</h1>
-<p>从入口代码开始分析，我们先来分析 <code>new Vue</code> 背后发生了哪些事情。我们都知道，<code>new</code> 关键字在 Javascript 语言中代表实例化是一个对象，而 <code>Vue</code> 实际上是一个类，类在 Javascript 中是用 Function 来实现的，来看一下源码，在<code>src/core/instance/index.js</code> 中。</p>
-<div><pre><code><span>function</span> <span>Vue</span> <span>(</span><span>options</span><span>)</span> <span>{</span>
-  <span>if</span> <span>(</span>process<span>.</span>env<span>.</span><span>NODE_ENV</span> <span>!==</span> <span>'production'</span> <span>&amp;&amp;</span>
-    <span>!</span><span>(</span><span>this</span> <span>instanceof</span> <span>Vue</span><span>)</span>
-  <span>)</span> <span>{</span>
-    <span>warn</span><span>(</span><span>'Vue is a constructor and should be called with the `new` keyword'</span><span>)</span>
-  <span>}</span>
-  <span>this</span><span>.</span><span>_init</span><span>(</span>options<span>)</span>
-<span>}</span>
-</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><p>可以看到 <code>Vue</code> 只能通过 new 关键字初始化，然后会调用 <code>this._init</code> 方法， 该方法在 <code>src/core/instance/init.js</code> 中定义。</p>
-<div><pre><code><span>Vue</span><span>.</span>prototype<span>.</span><span>_init</span> <span>=</span> <span>function</span> <span>(</span><span>options<span>?</span><span>:</span> Object</span><span>)</span> <span>{</span>
-  <span>const</span> <span>vm</span><span>:</span> Component <span>=</span> <span>this</span>
-  <span>// a uid</span>
-  vm<span>.</span>_uid <span>=</span> uid<span>++</span>
-
-  <span>let</span> startTag<span>,</span> endTag
-  <span>/* istanbul ignore if */</span>
-  <span>if</span> <span>(</span>process<span>.</span>env<span>.</span><span>NODE_ENV</span> <span>!==</span> <span>'production'</span> <span>&amp;&amp;</span> config<span>.</span>performance <span>&amp;&amp;</span> mark<span>)</span> <span>{</span>
-    startTag <span>=</span> <span><span>`</span><span>vue-perf-start:</span><span><span>${</span>vm<span>.</span>_uid<span>}</span></span><span>`</span></span>
-    endTag <span>=</span> <span><span>`</span><span>vue-perf-end:</span><span><span>${</span>vm<span>.</span>_uid<span>}</span></span><span>`</span></span>
-    <span>mark</span><span>(</span>startTag<span>)</span>
-  <span>}</span>
-
-  <span>// a flag to avoid this being observed</span>
-  vm<span>.</span>_isVue <span>=</span> <span>true</span>
-  <span>// merge options</span>
-  <span>if</span> <span>(</span>options <span>&amp;&amp;</span> options<span>.</span>_isComponent<span>)</span> <span>{</span>
-    <span>// optimize internal component instantiation</span>
-    <span>// since dynamic options merging is pretty slow, and none of the</span>
-    <span>// internal component options needs special treatment.</span>
-    <span>initInternalComponent</span><span>(</span>vm<span>,</span> options<span>)</span>
-  <span>}</span> <span>else</span> <span>{</span>
-    vm<span>.</span>$options <span>=</span> <span>mergeOptions</span><span>(</span>
-      <span>resolveConstructorOptions</span><span>(</span>vm<span>.</span>constructor<span>)</span><span>,</span>
-      options <span>||</span> <span>{</span><span>}</span><span>,</span>
-      vm
-    <span>)</span>
-  <span>}</span>
-  <span>/* istanbul ignore else */</span>
-  <span>if</span> <span>(</span>process<span>.</span>env<span>.</span><span>NODE_ENV</span> <span>!==</span> <span>'production'</span><span>)</span> <span>{</span>
-    <span>initProxy</span><span>(</span>vm<span>)</span>
-  <span>}</span> <span>else</span> <span>{</span>
-    vm<span>.</span>_renderProxy <span>=</span> vm
-  <span>}</span>
-  <span>// expose real self</span>
-  vm<span>.</span>_self <span>=</span> vm
-  <span>initLifecycle</span><span>(</span>vm<span>)</span>
-  <span>initEvents</span><span>(</span>vm<span>)</span>
-  <span>initRender</span><span>(</span>vm<span>)</span>
-  <span>callHook</span><span>(</span>vm<span>,</span> <span>'beforeCreate'</span><span>)</span>
-  <span>initInjections</span><span>(</span>vm<span>)</span> <span>// resolve injections before data/props</span>
-  <span>initState</span><span>(</span>vm<span>)</span>
-  <span>initProvide</span><span>(</span>vm<span>)</span> <span>// resolve provide after data/props</span>
-  <span>callHook</span><span>(</span>vm<span>,</span> <span>'created'</span><span>)</span>
-
-  <span>/* istanbul ignore if */</span>
-  <span>if</span> <span>(</span>process<span>.</span>env<span>.</span><span>NODE_ENV</span> <span>!==</span> <span>'production'</span> <span>&amp;&amp;</span> config<span>.</span>performance <span>&amp;&amp;</span> mark<span>)</span> <span>{</span>
-    vm<span>.</span>_name <span>=</span> <span>formatComponentName</span><span>(</span>vm<span>,</span> <span>false</span><span>)</span>
-    <span>mark</span><span>(</span>endTag<span>)</span>
-    <span>measure</span><span>(</span><span><span>`</span><span>vue </span><span><span>${</span>vm<span>.</span>_name<span>}</span></span><span> init</span><span>`</span></span><span>,</span> startTag<span>,</span> endTag<span>)</span>
-  <span>}</span>
-
-  <span>if</span> <span>(</span>vm<span>.</span>$options<span>.</span>el<span>)</span> <span>{</span>
-    vm<span>.</span><span>$mount</span><span>(</span>vm<span>.</span>$options<span>.</span>el<span>)</span>
-  <span>}</span>
-<span>}</span>
-</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><p>Vue 初始化主要就干了几件事情，合并配置，初始化生命周期，初始化事件中心，初始化渲染，初始化 data、props、computed、watcher 等等。</p>
-<h2 id="总结" tabindex="-1"> 总结</h2>
-<p>Vue 的初始化逻辑写的非常清楚，把不同的功能逻辑拆成一些单独的函数执行，让主线逻辑一目了然，这样的编程思想是非常值得借鉴和学习的。</p>
-<p>由于我们这一章的目标是弄清楚模板和数据如何渲染成最终的 DOM，所以各种初始化逻辑我们先不看。在初始化的最后，检测到如果有 <code>el</code> 属性，则调用 <code>vm.$mount</code> 方法挂载 <code>vm</code>，挂载的目标就是把模板渲染成最终的 DOM，那么接下来我们来分析 Vue 的挂载过程。</p>
 ]]></content:encoded>
     </item>
   </channel>
