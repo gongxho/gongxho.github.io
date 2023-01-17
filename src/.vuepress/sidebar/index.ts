@@ -21,6 +21,7 @@ import { browser } from "./bedstone";
 import { vue2 } from "./vue2";
 import { vue3 } from "./vue3";
 import { react } from "./react";
+import { baseInterview } from "./Interview";
 
 // 通过 路径前缀: 侧边栏配置 的格式为侧边栏配置一个对象
 export const zhSidebarConig = sidebar({
@@ -37,6 +38,8 @@ export const zhSidebarConig = sidebar({
   "/bedstone/computer-memory-detail/":'structure',
   "/bedstone/google-v8/":'structure',
   "/bedstone/perspective-http-protocol/":'structure',
+
+  "/Interview/base/":baseInterview,
 
   "/vue2/": vue2,
   "/vue3/": vue3,

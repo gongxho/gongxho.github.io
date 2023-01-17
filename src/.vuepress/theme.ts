@@ -9,7 +9,7 @@ export default hopeTheme({
   hostname: "https://0808200.xyz",
   // 文章显示的默认作者
   author: {
-    name: "𝐺𝑜𝑜𝑔𝑥ℎ",
+    name: "𝑔𝑜𝑜𝑔𝑥ℎ",
     url: "https://0808200.xyz",
   },
   // 字体图标资源链接
@@ -40,16 +40,16 @@ export default hopeTheme({
           Gmail: "gxh2022@gmail.com",
           GitHub: "https://github.com/googxho",
           Gitee: "https://gitee.com/googlh",
-          // Zhihu: "https://www.zhihu.com/people/mister-hope",
-          // Weibo: "https://weibo.com/misterhope",
-          // Steam: "https://steamcommunity.com/id/Mr-Hope/",
+          // Zhihu: "https://www.zhihu.com/",
+          // Weibo: "https://weibo.com/",
+          // Steam: "https://steamcommunity.com/",
         },
       },
     },
   },
   // 是否默认显示页脚
   displayFooter: true,
-  copyright: "Copyright © 2022-present Mr.Googxh",
+  copyright: "Copyright © 2022-present Mr.googxh",
   // 插件配置
   plugins: {
     blog: true,
@@ -94,8 +94,8 @@ export default hopeTheme({
         color: "#ffffff",
       },
       manifest: {
-        name: "Mr.Googxh 的个人博客",
-        short_name: "Mr.Googxh Blog",
+        name: "Mr.googxh blog",
+        short_name: "Mr.googxh",
         description: "Mr.Googxh 的个人博客",
         theme_color: "#5c92d1",
         icons: [

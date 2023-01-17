@@ -5,6 +5,7 @@ export const browser = arraySidebar([
   {
     text: "宏观视角上的浏览器",
     icon: "guide",
+    collapsable: true,
     prefix: "part1/",
     children: [
       "lesson01",
@@ -18,6 +19,7 @@ export const browser = arraySidebar([
   {
     text: "浏览器中的JavaScript执行机制",
     icon: "guide",
+    collapsable: true,
     prefix: "part2/",
     children: [
         "lesson07",
@@ -30,6 +32,7 @@ export const browser = arraySidebar([
   {
     text: "V8工作原理",
     icon: "guide",
+    collapsable: true,
     prefix: "part3/",
     children: [
         "lesson12",
@@ -40,6 +43,7 @@ export const browser = arraySidebar([
   {
     text: "浏览器中的页面循环系统",
     icon: "guide",
+    collapsable: true,
     prefix: "part4/",
     children: [
         "lesson15",
@@ -53,6 +57,7 @@ export const browser = arraySidebar([
   {
     text: "浏览器中的页面",
     icon: "guide",
+    collapsable: true,
     prefix: "part5/",
     children: [
         "lesson21",
@@ -68,6 +73,7 @@ export const browser = arraySidebar([
   {
     text: "浏览器中的网络",
     icon: "guide",
+    collapsable: true,
     prefix: "part6/",
     children: [
         "lesson29",

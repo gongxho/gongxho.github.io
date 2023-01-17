@@ -22,8 +22,8 @@ export default defineUserConfig({
   locales: {
     "/": {
       lang: "zh-CN",
-      title: "𝑀𝑟.𝐺𝑜𝑜𝑔𝑥ℎ",
-      description: "𝑀𝑟.𝐺𝑜𝑜𝑔𝑥ℎ personal blog.",
+      title: "𝑀𝑟.𝑔𝑜𝑜𝑔𝑥ℎ",
+      description: "𝑀𝑟.𝑔𝑜𝑜𝑔𝑥ℎ blog.",
     },
   },
   // 设置站点要使用的主题

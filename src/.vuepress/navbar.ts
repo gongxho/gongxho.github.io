@@ -25,7 +25,7 @@ export const zhNavbarConfig = navbar([
         activeMatch: "^/code/$",
       },
       {
-        text: "前端",
+        text: "前端源码",
         children: ["/vue2/","/react/","/vue3/"],
       },
       {
@@ -55,12 +55,12 @@ export const zhNavbarConfig = navbar([
     ],
   },
   {
-    text: "前端基石",
+    text: "前端基础",
     icon: "bedstone",
     prefix: "/bedstone/",
     children: [
       {
-        text: "前端基石",
+        text: "前端基础",
         icon: "software",
         link: "",
         activeMatch: "^/bedstone/$",
@@ -68,8 +68,22 @@ export const zhNavbarConfig = navbar([
       "computer-memory-detail/",
       "browser-working-principle/",
       "beauty-of-design-pattern/",
-      "google-v8",
-      "perspective-http-protocol",
+      "google-v8/",
+      "perspective-http-protocol/",
+    ],
+  },
+  {
+    text: "前端面试",
+    icon: "Interview",
+    prefix: "/Interview/",
+    children: [
+      {
+        text: "前端面试",
+        icon: "software",
+        link: "",
+        activeMatch: "^/Interview/$",
+      },
+      "base/",
     ],
   },
 ]);

@@ -28,17 +28,21 @@
     "@vuepress/cli": "2.0.0-beta.48",
     "@vuepress/client": "2.0.0-beta.48",
     "@vuepress/plugin-docsearch": "2.0.0-beta.48",
-    "sass-loader": "13.0.0",
-    "vue": "3.2.37",
+    "sass-loader": "13.2.0",
+    "vue": "3.2.45",
     "vuepress-theme-hope": "2.0.0-beta.84",
     "vuepress-vite": "2.0.0-beta.48",
     "vuepress-webpack": "2.0.0-beta.48"
   },
   "devDependencies": {
     "cross-env": "7.0.3",
-    "markdownlint-cli": "0.31.1",
-    "prettier": "2.6.2"
+    "markdownlint-cli": "0.33.0",
+    "prettier": "2.8.3"
   },
+  "browserslist": [
+    "defaults and supports es6-module",
+    "maintained node versions"
+  ],
   "packageManager": "pnpm@7.3.0",
   "pnpm": {
     "peerDependencyRules": {
