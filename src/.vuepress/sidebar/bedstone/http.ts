@@ -1,0 +1,71 @@
+import { arraySidebar } from "vuepress-theme-hope";
+
+export const http = arraySidebar([
+  "",
+  {
+    text: "开篇词",
+    icon: "guide",
+    collapsable: true,
+    prefix: "1_opening/",
+    children: ["lesson00"],
+  },
+  {
+    text: "破冰篇",
+    icon: "guide",
+    collapsable: true,
+    prefix: "2_ice/",
+    children: [
+      "lesson01",
+      "lesson02",
+      "lesson03",
+      "lesson04",
+      "lesson05",
+      "lesson06",
+      "lesson07",
+    ],
+  },
+  {
+    text: "基础篇",
+    icon: "guide",
+    collapsable: true,
+    prefix: "3_based/",
+    children: [
+      "lesson08",
+      "lesson09",
+      "lesson10",
+      "lesson11",
+      "lesson12",
+      "lesson13",
+      "lesson14",
+    ],
+  },
+  {
+    text: "进阶篇",
+    icon: "guide",
+    collapsable: true,
+    prefix: "4_advanced/",
+    children: [
+      "lesson15",
+      "lesson16",
+      "lesson17",
+      "lesson18",
+      "lesson19",
+      "lesson20",
+      "lesson21",
+      "lesson22",
+    ],
+  },
+  {
+    text: "安全篇",
+    icon: "guide",
+    collapsable: true,
+    prefix: "5_security/",
+    children: [
+      "lesson23",
+      "lesson24",
+      "lesson25",
+      "lesson26",
+      "lesson27",
+    ],
+  },
+]);
