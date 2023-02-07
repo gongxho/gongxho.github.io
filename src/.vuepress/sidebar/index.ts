@@ -17,7 +17,7 @@ import { note } from "./note";
 import { comsol, git, software, vscode } from "./software";
 import { vue } from "./vue";
 import { css, html, jquery, website } from "./website";
-import { browser } from "./bedstone";
+import { browser, http } from "./bedstone";
 import { vue2 } from "./vue2";
 import { vue3 } from "./vue3";
 import { react } from "./react";
@@ -37,7 +37,7 @@ export const zhSidebarConig = sidebar({
   "/bedstone/browser-working-principle/": browser,
   "/bedstone/computer-memory-detail/":'structure',
   "/bedstone/google-v8/":'structure',
-  "/bedstone/perspective-http-protocol/":'structure',
+  "/bedstone/perspective-http-protocol/": http,
 
   "/Interview/base/":baseInterview,
 
