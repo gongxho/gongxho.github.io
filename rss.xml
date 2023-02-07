@@ -6,8 +6,8 @@
     <link>https://0808200.xyz/</link>
     <description>𝑀𝑟.𝑔𝑜𝑜𝑔𝑥ℎ blog.</description>
     <language>zh-CN</language>
-    <pubDate>Tue, 07 Feb 2023 15:14:49 GMT</pubDate>
-    <lastBuildDate>Tue, 07 Feb 2023 15:14:49 GMT</lastBuildDate>
+    <pubDate>Tue, 07 Feb 2023 16:30:02 GMT</pubDate>
+    <lastBuildDate>Tue, 07 Feb 2023 16:30:02 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Interview</category>
@@ -1915,7 +1915,7 @@ Cookie 的好处已经很清楚了，你觉得它有什么缺点呢？</p>
 <p>别着急，试着点一下浏览器的“前进”“后退”按钮，再看开发者工具，你就会惊喜地发现“from disk cache”的字样，意思是没有发送网络请求，而是读取的磁盘上的缓存。</p>
 <p>另外，如果用第 18 讲里的重定向跳转功能，也可以发现浏览器使用了缓存：</p>
 <div><pre><code>http://www.chrono.com/18-1?dst=20-1
-</code></pre><div aria-hidden="true"><div></div></div></div><p><img src="image.png" alt=""></p>
+</code></pre><div aria-hidden="true"><div></div></div></div><p><img src="https://img-blog.csdnimg.cn/6c8d21f6095648b4bba99d388d08d19e.png" alt=""></p>
 <p>这几个操作与刷新有什么区别呢？</p>
 <p>其实也很简单，在“前进”“后退”“跳转”这些重定向动作中浏览器不会“夹带私货”，只用最基本的请求头，没有“Cache-Control”，所以就会检查缓存，直接利用之前的资源，不再进行网络通信。</p>
 <p>这个过程你也可以用 Wireshark 抓包，看看是否真的没有向服务器发请求。</p>

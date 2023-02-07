@@ -3,7 +3,7 @@
   <id>https://0808200.xyz/</id>
   <title>𝑀𝑟.𝑔𝑜𝑜𝑔𝑥ℎ</title>
   <subtitle>𝑀𝑟.𝑔𝑜𝑜𝑔𝑥ℎ blog.</subtitle>
-  <updated>2023-02-07T15:14:49.975Z</updated>
+  <updated>2023-02-07T16:30:02.035Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://0808200.xyz/atom.xml"/>
   <link rel="alternate" href="https://0808200.xyz/"/>
@@ -1843,7 +1843,7 @@ Cookie 的好处已经很清楚了，你觉得它有什么缺点呢？</p>
     <title type="html">20 | 生鲜速递：HTTP的缓存控制</title>
     <id>https://0808200.xyz/bedstone/perspective-http-protocol/4_advanced/lesson20.html</id>
     <link href="https://0808200.xyz/bedstone/perspective-http-protocol/4_advanced/lesson20.html"/>
-    <updated>2023-02-07T15:04:54.000Z</updated>
+    <updated>2023-02-07T16:21:07.000Z</updated>
     <content type="html"><![CDATA[<h1 id="_20-生鲜速递-http的缓存控制" tabindex="-1"> 20 | 生鲜速递：HTTP的缓存控制</h1>
 <p>缓存（Cache）是计算机领域里的一个重要概念，是优化系统性能的利器。</p>
 <p>由于链路漫长，网络时延不可控，浏览器使用 HTTP 获取资源的成本较高。所以，非常有必要把“来之不易”的数据缓存起来，下次再请求的时候尽可能地复用。这样，就可以避免多次请求 - 应答的通信成本，节约网络带宽，也可以加快响应速度。</p>
@@ -1895,7 +1895,7 @@ Cookie 的好处已经很清楚了，你觉得它有什么缺点呢？</p>
 <p>别着急，试着点一下浏览器的“前进”“后退”按钮，再看开发者工具，你就会惊喜地发现“from disk cache”的字样，意思是没有发送网络请求，而是读取的磁盘上的缓存。</p>
 <p>另外，如果用第 18 讲里的重定向跳转功能，也可以发现浏览器使用了缓存：</p>
 <div><pre><code>http://www.chrono.com/18-1?dst=20-1
-</code></pre><div aria-hidden="true"><div></div></div></div><p><img src="image.png" alt=""></p>
+</code></pre><div aria-hidden="true"><div></div></div></div><p><img src="https://img-blog.csdnimg.cn/6c8d21f6095648b4bba99d388d08d19e.png" alt=""></p>
 <p>这几个操作与刷新有什么区别呢？</p>
 <p>其实也很简单，在“前进”“后退”“跳转”这些重定向动作中浏览器不会“夹带私货”，只用最基本的请求头，没有“Cache-Control”，所以就会检查缓存，直接利用之前的资源，不再进行网络通信。</p>
 <p>这个过程你也可以用 Wireshark 抓包，看看是否真的没有向服务器发请求。</p>
