@@ -87,7 +87,7 @@ Ctrl+F5 的“强制刷新”又是什么样的呢？
 http://www.chrono.com/18-1?dst=20-1
 ```
 
-![](image.png)
+![](https://img-blog.csdnimg.cn/6c8d21f6095648b4bba99d388d08d19e.png)
 
 这几个操作与刷新有什么区别呢？
 
