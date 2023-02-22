@@ -55,10 +55,7 @@ category: Interview
 - [DOM事件的总结](dom_events_summary.md)
 - [HTTP协议](http_protocol.md)
 
-
 ## 综合版本
-
 
 - [Interview-Questions](question-version.md)
 - [Front-end-Developer-Questions[question-and-answer-version]](question-and-answer-version.md)
-

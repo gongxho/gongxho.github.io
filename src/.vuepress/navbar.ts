@@ -84,6 +84,7 @@ export const zhNavbarConfig = navbar([
         activeMatch: "^/Interview/$",
       },
       "base/",
+      "h5/",
     ],
   },
 ]);
